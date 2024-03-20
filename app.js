@@ -13,7 +13,7 @@ const app =express();
 
 const port =process.env.PORT ||7000
 
-//Apply middleware
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 app.use(cors)
