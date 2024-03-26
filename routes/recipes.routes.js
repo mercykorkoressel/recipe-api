@@ -4,7 +4,7 @@ import multer from "multer";
 import { addRecipe, deleteRecipe, getRecipe, getRecipes, updateRecipe } from "../controllers/recipes.controller.js";
 
 //configure upload middleware
-const upload=multer({dest:'uploads'});
+const upload=multer({dest:'uploads/images'});
 
  const router =Router();
 
